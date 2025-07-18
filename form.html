@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <div class="navigation">
+            <nav>
+                <a href="https://www.google.com/">Home</a>
+                <a href="https://www.google.com/">About</a>
+                <a href="https://www.google.com/">Help</a>
+            </nav>
+        </div>
+    </header>
+    <div class="grid-container">
+        <div class="right-container">
+            <h2>Feel free to contact us</h2>
+            <p>Your information is safe with us.
+                We hope you get the best experience.
+            </p>
+        </div>
+        <div class="left-container">
+            <form>
+            <div><label>First name</label><input type="text" placeholder="First name"></div>
+            <div><label>Last name</label><input type="text" placeholder="Last name"></div>
+            <div><label>Email</label><input type="email" placeholder="email"></div>
+            <div><label>Contact</label><input type="tel" value="+91" placeholder="number"></div>
+            <div><label>Date of birth</label><input type="date" placeholder="date"></div>
+            <div><button>Submit</button></div>
+            </form>
+        </div>
+    </div>
+  <div class="todo-container">
+    <h2>My To-Do List</h2>
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Add new task">
+      <button id="addBtn">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
